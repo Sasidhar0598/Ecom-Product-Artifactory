@@ -1,18 +1,19 @@
-package com.jdbc.web.web1;
+package com.ecom.product.web;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.sql.Connection;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.ecom.product.DbConnection;
 
 
 
-import com.jdbc.web.db.DbConnection;
 
-import jakarta.servlet.ServletException;
-import jakarta.servlet.annotation.WebServlet;
-import jakarta.servlet.http.HttpServlet;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
 
 
 /**
