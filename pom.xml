@@ -6,6 +6,15 @@
 	<artifactId>Ecom-Product-Artifactory</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
+	
+	<name>Ecom-Product-Artifactory</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.target>8</maven.compiler.target>
+		<maven.compiler.source>8</maven.compiler.source>
+	</properties>
 
 	<dependencies>
 
